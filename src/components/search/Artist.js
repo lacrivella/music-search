@@ -13,7 +13,8 @@ function Artist({ artist }) {
 Artist.propTypes = {
   artist: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    disambiguation: PropTypes.string.isRequired
+    disambiguation: PropTypes.string.isRequired,
+    id: PropTypes.string
   })
 };
 
