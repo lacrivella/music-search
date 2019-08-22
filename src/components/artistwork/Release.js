@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Realese({ release }) {
+function Release({ release }) {
   return (
     <section>
       <p>{release.title}</p>
-      <span><img src={} /></span>
+      <span><img src={release.cover} /></span>
     </section>
   );
 }
@@ -13,7 +13,7 @@ function Realese({ release }) {
 Release.propTypes = {
   release: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    cover: PropTypes.string.isRequired
+    cover: PropTypes.string
   })
 };
 

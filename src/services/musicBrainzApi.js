@@ -4,12 +4,12 @@ export const getArtists = (artists) => {
       if(!res.ok) throw 'unable to fetch artists';
       return res.json();
     });
-}
+};
 
 export const getWorks = (id) => {
   return fetch(`http://musicbrainz.org/ws/2/release?artist=${id}&fmt=json`)
     .then(res => {
       if(!res.ok) throw 'unable to fetch works';
       return res.json();
-  });
-}
+    });
+};
