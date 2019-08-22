@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 function Artist({ artist }) {
   return (
     <Link to={`/artist/${artist.id}`}>
-    <section>
-      <p>{artist.name}</p>
-      <p>{artist.disambiguation}</p>
-    </section>
+      <section>
+        <p>{artist.name}</p>
+        <p>{artist.disambiguation}</p>
+      </section>
     </Link>
   );
 }
