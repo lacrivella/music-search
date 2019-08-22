@@ -22,10 +22,10 @@ export const getRecording = (id) => {
     });
 };
 
-export const getLyrics = (artist, song) => {
-  return fetch(`https://api.lyrics.ovh/v1/${artist}/${song}`)
+export const getLyrics = (artist, title) => {
+  return fetch(`https://api.lyrics.ovh/v1/${artist}/${title}`)
     .then(res => {
       if(!res.ok) throw 'unable to fetch lyrics';
       return res.json();
     });
-}; 
+};

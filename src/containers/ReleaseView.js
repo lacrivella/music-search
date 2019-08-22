@@ -18,7 +18,7 @@ export default class ReleaseView extends Component {
     return (
       <>
       <Header title="List of Song Releases" />
-      <RecordingList recordings={this.state.recordings} />
+      <RecordingList recordings={this.state.recordings} artistName={this.props.match.params.artist}/>
       </>
     );
   }
