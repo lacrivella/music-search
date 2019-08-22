@@ -21,3 +21,11 @@ export const getRecording = (id) => {
       return res.json();
     });
 };
+
+export const getLyrics = (artist, song) => {
+  return fetch(`https://api.lyrics.ovh/v1/${artist}/${song}`)
+    .then(res => {
+      if(!res.ok) throw 'unable to fetch lyrics';
+      return res.json();
+    });
+}; 
