@@ -19,7 +19,7 @@ export default class ArtistWorks extends Component {
     return (
       <>
       <Header title="List of Artist's Works" />
-      <Releases releases={this.state.releases} />
+      <Releases releases={this.state.releases} artist={this.props.match.params.artistName} />
       </>
     );
   }

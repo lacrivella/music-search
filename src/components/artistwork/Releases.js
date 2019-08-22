@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import Release from './Release';
 
 
-function Releases({ releases }) {
+function Releases({ releases, artist }) {
   const releaseList = releases.map(release => {
     return (
       <li key={release.id}>
-        <Release release={release} />
+        <Release release={release} artist={artist} />
       </li>
     );
   });
@@ -15,11 +15,12 @@ function Releases({ releases }) {
     <ul>
       {releaseList}
     </ul>
-  )
+  );
 }
 
 Releases.propTypes = {
-  releases: PropTypes.array.isRequired
+  releases: PropTypes.array.isRequired,
+  artist:  PropTypes.string.isRequired
 };
 
 export default Releases;

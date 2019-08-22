@@ -20,8 +20,8 @@ Release.propTypes = {
   release: PropTypes.shape({
     title: PropTypes.string.isRequired,
     id: PropTypes.string,
-    artist: PropTypes.string
-  })
+  }),
+  artist: PropTypes.string
 };
 
 export default Release;
