@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paging component renders Paging 1`] = `
+<span>
+  <button
+    onClick={[Function]}
+  >
+    ↲
+  </button>
+  <span>
+    Page 
+    6
+     of 
+    80
+  </span>
+  <button
+    onClick={[Function]}
+  >
+    ↳
+  </button>
+</span>
+`;
