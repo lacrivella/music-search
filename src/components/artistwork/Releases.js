@@ -20,7 +20,7 @@ function Releases({ releases, artist }) {
 
 Releases.propTypes = {
   releases: PropTypes.array.isRequired,
-  artist:  PropTypes.string.isRequired
+  artist:  PropTypes.string
 };
 
 export default Releases;

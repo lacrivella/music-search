@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Releases component renders Releases 1`] = `
+<ul>
+  <li
+    key="fake"
+  >
+    <Release
+      release={
+        Object {
+          "id": "fake",
+          "title": "hello",
+        }
+      }
+    />
+  </li>
+</ul>
+`;
