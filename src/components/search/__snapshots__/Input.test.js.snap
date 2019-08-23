@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component renders Input 1`] = `
+<Fragment>
+  <input
+    name="artist"
+    onChange={[Function]}
+    type="text"
+    value="David Bowie"
+  />
+  <button
+    onClick={[Function]}
+  >
+    Search!
+  </button>
+</Fragment>
+`;
