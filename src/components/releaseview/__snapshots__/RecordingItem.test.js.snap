@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecordingItem component renders App 1`] = `
+<Link
+  to="/song/undefined/test"
+>
+  <section>
+    <p>
+      test
+    </p>
+  </section>
+</Link>
+`;
