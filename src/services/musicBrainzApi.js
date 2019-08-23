@@ -6,8 +6,8 @@ export const getArtists = (artists, page) => {
     });
 };
 
-export const getWorks = (id) => {
-  return fetch(`http://musicbrainz.org/ws/2/release?artist=${id}&fmt=json`)
+export const getWorks = (id, page) => {
+  return fetch(`http://musicbrainz.org/ws/2/release?artist=${id}&fmt=json&limit=25&offset=${(page - 1) * 25}`)
     .then(res => {
       if(!res.ok) throw 'unable to fetch works';
       return res.json();
