@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Notable|Thasadith&display=swap');
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: 'Notable', sans-serif;
+  font-size: 5vh;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  
+}
+/* 2a2b2e */

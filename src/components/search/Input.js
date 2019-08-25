@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Input.css';
 
 function Input({ artist, inputChange, onSearch }) {
   return (
-    <>
-      <input type="text" name="artist" value={artist} onChange={inputChange} />
-      <button onClick={onSearch}>Search!</button>
-    </>
+    <section className={styles.Input}>
+      <input type="text" placeholder="search..." name="artist" value={artist} onChange={inputChange} />
+      <button onClick={onSearch}>⌕</button>
+    </section>
   );
 }
 
