@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Artists component renders Artists 1`] = `
+<ul>
+  <li
+    key="whatev"
+  >
+    <Artist
+      artist={
+        Object {
+          "disambiguation": "Metal Band",
+          "id": "whatev",
+          "name": "WASP",
+        }
+      }
+    />
+  </li>
+  <li
+    key="meep"
+  >
+    <Artist
+      artist={
+        Object {
+          "disambiguation": "Hair Metal Band",
+          "id": "meep",
+          "name": "Poison",
+        }
+      }
+    />
+  </li>
+</ul>
+`;

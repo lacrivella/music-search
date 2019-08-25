@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Notable|Thasadith&display=swap');
+.Input {
+  display: block;
+  text-align: center;
+  flex-direction: row;
+  position: relative;
+  align-content: space-between;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+
+  input {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1.175rem;
+    text-align: center;
+    height: 3rem;
+    width: 7rem;
+    margin: 2rem;
+  }
+
+  button {
+    font-family: 'Notable', sans-serif;
+    align-items: center;
+    border-radius: 20%;
+    font-size: 1.175rem;
+    color: #2a2b2e;
+  }
+}

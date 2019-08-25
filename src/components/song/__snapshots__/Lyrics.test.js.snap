@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lyrics component renders Lyrics 1`] = `
+<section
+  className="Lyrics"
+>
+  <h3>
+    Meow
+  </h3>
+  <p>
+    by 
+    Cat
+  </p>
+  <p>
+    meow meow meow meeeow
+  </p>
+</section>
+`;

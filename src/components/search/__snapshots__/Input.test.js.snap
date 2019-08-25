@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component renders Input 1`] = `
+<section
+  className="Input"
+>
+  <input
+    name="artist"
+    onChange={[Function]}
+    placeholder="search..."
+    type="text"
+    value="David Bowie"
+  />
+  <button
+    onClick={[Function]}
+  >
+    ⌕
+  </button>
+</section>
+`;
